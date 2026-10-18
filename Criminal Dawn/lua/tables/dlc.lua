@@ -144,12 +144,12 @@ local dlc_content = {
             sparrow = secondary, iceaxe = melee, pugio = melee, selfie = melee, gator = melee },
 
   -- Goat Simulator
-  peta = { cd_goat1 = heist.tier3, cd_goat2 = heist.tier4, peta = heist.dlc,
+  peta = { cd_goat1 = heist.tier4, cd_goat2 = heist.tier3, peta = heist.dlc,
            m37 = secondary,
            pitchfork = melee, scoutknife = melee, shawn = melee, stick = melee },
 
   -- Wolf Pack
-  pal = { pal = heist.tier2, man = heist.tier4,
+  pal = { pal = heist.tier3, man = heist.tier3,
           china = secondary,
           nin = melee },
 
@@ -168,7 +168,7 @@ local dlc_content = {
            biker_armour_cd = true },
 
   -- Biker Heist
-  born = { cd_biker1 = heist.tier3 ,cd_biker2 = heist.tier1, born = heist.dlc,
+  born = {born = heist.dlc,
            hajk = secondary,
            wpn_prj_hur = throwable },
 
@@ -186,12 +186,12 @@ local dlc_content = {
             kingpin_immunity = true, kingpin_cd = true },
 
   -- Scarface Mansion
-  friend = { friend = heist.tier5,
+  friend = { friend = heist.tier4,
              ray = secondary,
              brick = melee },
 
   -- John Wick Heists Pack
-  spa = { spa = heist.tier3, fish = heist.tier4,
+  spa = { spa = heist.tier4, fish = heist.tier3,
           tti = primary,
           catch = melee },
 
@@ -209,7 +209,7 @@ local dlc_content = {
           h3h3_base = true, h3h3_cd = true, h3h3_absorption = true },
 
   -- Border Crossing
-  mex = { mex = heist.tier5, mex_cooking = heist.tier5 },
+  mex = { mex = heist.tier5, mex_cooking = heist.tier4 },
 
   -- San Martin Bank
   bex = { bex = heist.tier4 },
@@ -219,7 +219,7 @@ local dlc_content = {
            beer = secondary, czech = secondary, stech = secondary },
 
   -- Breakfast in Tijuana
-  pex = { pex = heist.tier2 },
+  pex = { pex = heist.tier3 },
 
   -- Fugitive Weapon Pack
   atw = { m60 = primary, r700 = primary, x_holt = akimbo,
@@ -233,7 +233,7 @@ local dlc_content = {
           model3 = secondary },
 
   -- Dragon Heist
-  chas = { chas = heist.tier2 },
+  chas = { chas = heist.tier3 },
 
   -- Jiu Feng Smuggler Pack
   fawp = { m590 = primary, x_m1911 = akimbo, x_vityaz = akimbo,
@@ -254,14 +254,14 @@ local dlc_content = {
             rsh12 = secondary, type54 = secondary },
 
   -- Mountain Master
-  pent = { pent = heist.tier5 },
+  pent = { pent = heist.tier4 },
 
   -- Jiu Feng Smuggler Pack 4
   lawp = { x_maxim9 = akimbo,
            fmg9 = secondary, ultima = secondary, maxim9 = secondary },
 
   -- Midland Ranch
-  ranc = { ranc = heist.tier3 },
+  ranc = { ranc = heist.tier4 },
 
   -- McShay Weapon Pack
   pxp1 = { hk51b = primary,
@@ -275,7 +275,7 @@ local dlc_content = {
             korth = secondary  }, -- why is there an akimbo variant of a primary weapon.
 
   -- Hostile Takeover
-  corp = { corp = heist.tier5 },
+  corp = { corp = heist.tier4 },
 
   -- McShay Weapon Pack 3
   pxp3 = { tkb = primary, hcar = primary,
