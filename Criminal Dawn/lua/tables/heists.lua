@@ -39,6 +39,6 @@ Global.CrimDawn.tables.heists = {
 
 
   -- Final heist
-  tier6 = { "vit" }
+  -- tier6 = { "vit" }, Removed for time being as White House takes twice as long as the alternative
   -- White House
 }
